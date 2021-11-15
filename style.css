@@ -1,6 +1,11 @@
 body {
     background-color: palevioletred;
     font-family: "Helvetica", sans-serif;
+    padding: 5%;
+}
+
+h1 {
+    background-color: plum;
 }
 
 a, a:visited {
@@ -8,6 +13,15 @@ a, a:visited {
     color: black;
 }
 
-ul li {
-    text-decoration: none;
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: armenian;
+}
+
+img.food {
+    height: 100px;
+    width: auto;
 }
